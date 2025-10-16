@@ -1,0 +1,70 @@
+{
+  "model_type": "GradientBoosting",
+  "features_used": [
+    "cgpa",
+    "attendance",
+    "previous_avg",
+    "credits",
+    "theory_weight",
+    "cgpa_difficulty_interaction",
+    "attendance_difficulty_interaction",
+    "cgpa_attendance_interaction",
+    "domain_match",
+    "grade_consistency",
+    "course_avg_grade",
+    "interest_AI",
+    "interest_Web",
+    "interest_Networks",
+    "interest_Security",
+    "interest_Data_Science",
+    "interest_Cloud"
+  ],
+  "training_samples": 8772,
+  "test_samples": 2194,
+  "test_rmse": 0.488532064742984,
+  "test_mae": 0.38391467752277164,
+  "test_r2": 0.6403130496804694,
+  "cv_mean_r2": 0.6289556839614369,
+  "top_features": [
+    {
+      "feature": "cgpa_difficulty_interaction",
+      "importance": 0.3969587130034977
+    },
+    {
+      "feature": "cgpa_attendance_interaction",
+      "importance": 0.2209337426983836
+    },
+    {
+      "feature": "domain_match",
+      "importance": 0.12115037189201966
+    },
+    {
+      "feature": "previous_avg",
+      "importance": 0.10182586523663581
+    },
+    {
+      "feature": "grade_consistency",
+      "importance": 0.04633241615306704
+    },
+    {
+      "feature": "cgpa",
+      "importance": 0.03592429546750202
+    },
+    {
+      "feature": "attendance_difficulty_interaction",
+      "importance": 0.02041971041266933
+    },
+    {
+      "feature": "theory_weight",
+      "importance": 0.014466203771775878
+    },
+    {
+      "feature": "course_avg_grade",
+      "importance": 0.01276798742016232
+    },
+    {
+      "feature": "attendance",
+      "importance": 0.008390005418086379
+    }
+  ]
+}
